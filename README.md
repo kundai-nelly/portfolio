@@ -245,7 +245,7 @@ Open the repository in VS Code, right-click `index.html`, and select **Open with
 - CSS and JavaScript remain external so the HTML entry point is easier to cache and maintain.
 - The site has no runtime dependency on a package manager or server framework.
 
-Before publishing, test keyboard-only navigation, dialog focus management, color contrast, external links, mobile layouts at `320px`, `375px`, and `768px`, and the final canonical URL. Replace the placeholder `kundaisemu.example` metadata in `index.html` before production deployment.
+Before publishing, test keyboard-only navigation, dialog focus management, color contrast, external links, mobile layouts at `320px`, `375px`, and `768px`, and the live canonical URL: <https://kundai-nelly.github.io/portfolio/>.
 
 ## Future Roadmap
 
