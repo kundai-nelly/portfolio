@@ -26,7 +26,7 @@ The portfolio is structured to communicate a clear, factual junior-candidate pro
 3. **Technical Skills (`02`):** Five functional skill groups grounded in degree coursework, flagship projects, and practical work exposure (without arbitrary percentages).
 4. **Education & Professional Credentials (`03`):** Completed BSc in Information Technology (Data Science) from Eduvos (Graduated 2025, SAQA NQF Level 7) and IITPSA Membership (`20260513650`).
 5. **Professional Experience (`04`):** Restrained, factual presentation of practical work exposure at **Webapp Creative** (*Junior Data Analyst*, Jun–Dec 2024; *Junior Database Administrator*, Jan 2023–May 2024) and **Headington Technology Solutions** (*Systems Engineer*, Jan 2025–Present).
-6. **About My Analytical Approach (`05`) & Contact (`06`).**
+6. **About My Analytical Approach (`05`), Download My CV (`06`), & Contact (`07`).**
 
 ---
 
@@ -49,6 +49,8 @@ portfolio/
 ├── assets/
 │   ├── css/
 │   │   └── styles.css                            # Design tokens, typography, layout, responsive & theme rules
+│   ├── documents/
+│   │   └── Kundai_Nelly_Semu_CV.pdf              # Verified downloadable CV (PDF)
 │   ├── js/
 │   │   └── main.js                               # Navigation, modal focus management, lightbox & model runners
 │   └── images/
