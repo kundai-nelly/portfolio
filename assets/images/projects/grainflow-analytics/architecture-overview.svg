@@ -102,7 +102,7 @@
   <rect x="613" y="294" width="555" height="172" class="stage-warn"/>
   <text x="629" y="320" class="st-num" style="fill:#8A6415">ARCHITECTURAL BOUNDARY DISCLOSURE (IMPLEMENTED VS. MANUAL DESKTOP STEP)</text>
   <text x="629" y="342" class="st-title">Declarative Power BI Source Assets vs. Compiled .pbix Binary</text>
-  <text x="629" y="366" class="st-code">· DELIVERED IN REPO: Production Power Query (.m), Tabular BIM (model.bim, TOM 1550),</text>
+  <text x="629" y="366" class="st-code">· DELIVERED IN REPO: Declarative Power Query (.m), Tabular BIM (model.bim, TOM 1550),</text>
   <text x="629" y="384" class="st-code">  78 DAX measures (.dax), report layout JSON, 6 SVG blueprints, and HTML simulator.</text>
   <text x="629" y="406" class="st-code">· NOT IN REPO: Compiled binary .pbix / .pbip (requires interactive Windows GUI</text>
   <text x="629" y="424" class="st-code">  session in Power BI Desktop; cannot be compiled in a headless environment).</text>

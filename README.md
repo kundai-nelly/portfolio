@@ -1,4 +1,4 @@
-# Kundai Nelly Semu — Data Science & Analytics Portfolio
+# Kundai Nelly Semu — Data Analytics & Data Science Portfolio
 
 [![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -9,15 +9,28 @@
 
 > **Central message:** I use data analysis, statistical reasoning, programming and analytical tools to investigate problems and produce evidence-based insights.
 
-This repository hosts the portfolio website of **Kundai Nelly Semu**, a **Software Engineer with a BSc in Information Technology (Data Science)** completed at **Eduvos, South Africa**, seeking a **Junior Data Scientist** or **Junior Data Analyst** opportunity.
+This repository hosts the portfolio website of **Kundai Nelly Semu**, a **Junior Data Analyst / Aspiring Data Scientist** with a completed **Bachelor of Science in Information Technology (Data Science)** from **Eduvos, South Africa** (SAQA NQF Level 7).
 
-Live site: **[https://kundai-nelly.github.io/portfolio/](https://kundai-nelly.github.io/portfolio/)**
+- **Primary career targets:** Junior Data Analyst · Junior Data Scientist
+- **Additional targets:** Junior BI Analyst · Entry-level Data Analytics roles
+- **Live portfolio:** **[https://kundai-nelly.github.io/portfolio/](https://kundai-nelly.github.io/portfolio/)**
+
+---
+
+## Information Architecture & Positioning Hierarchy
+
+The portfolio is structured to communicate a clear, factual junior-candidate profile within 60 seconds:
+
+1. **Hero & Professional Profile:** Primary identity (**Junior Data Analyst / Aspiring Data Scientist**), completed **BSc in Information Technology (Data Science)** from Eduvos, and verified contact/GitHub links.
+2. **Selected Flagship Projects (`01`):** Four completed data analytics and data science case studies with verified metrics, visual evidence, explicit methodological limitations, and interactive browser model/scenario runners.
+3. **Technical Skills (`02`):** Five functional skill groups grounded in degree coursework, flagship projects, and practical work exposure (without arbitrary percentages).
+4. **Education & Professional Credentials (`03`):** Completed BSc in Information Technology (Data Science) from Eduvos (Graduated 2025, SAQA NQF Level 7) and IITPSA Membership (`20260513650`).
+5. **Professional Experience (`04`):** Restrained, factual presentation of practical work exposure at **Webapp Creative** (*Junior Data Analyst*, Jun–Dec 2024; *Junior Database Administrator*, Jan 2023–May 2024) and **Headington Technology Solutions** (*Systems Engineer*, Jan 2025–Present).
+6. **About My Analytical Approach (`05`) & Contact (`06`).**
 
 ---
 
 ## Flagship Projects Featured
-
-The portfolio presents four completed flagship data science and analytics case studies, each backed by verified metrics, visual evidence, explicit methodological caveats, and an in-browser interactive model or scenario runner:
 
 | # | Project | Analytical Scope & Stack | Verified Key Findings & Evidence | Repository & Demo Links |
 | ---: | :--- | :--- | :--- | :--- |

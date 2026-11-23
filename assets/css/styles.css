@@ -104,7 +104,7 @@ code, .mono{ font-family:'IBM Plex Mono', ui-monospace, monospace; font-size:0.8
 .i--sm{ width:.92em; height:.92em; }
 
 /* Tabular figures everywhere numbers align */
-code, .mono, .work__n, .sec__head .n, .work__meta, .card-facts dt, .edu__meta,
+code, .mono, .work__n, .sec__head .n, .work__meta, .card-facts dt, .edu__meta, .exp__meta,
 table.res td, table.res th, .facts small, .rank em, .contrib__row em, .fig__label,
 .runner__bar, .fcell input[type=number], .fcell select, .threshold output,
 .subnum, .deep__kick, .badge-meta{
@@ -358,6 +358,53 @@ table.res td, table.res th, .facts small, .rank em, .contrib__row em, .fig__labe
 .edu__body h3{ font-size:1.1rem; margin-bottom:.2rem; }
 .edu__inst{ color:var(--ink-2); font-size:.92rem; font-weight:500; margin-bottom:.5rem; }
 .edu__desc{ color:var(--ink-2); font-size:.92rem; margin:0; max-width:65ch; }
+
+/* --- Professional Experience (Restrained & Supporting) -------- */
+.exp-list{
+  border-top:1px solid var(--rule);
+}
+.exp-item{
+  display:grid; grid-template-columns:13rem 1fr; gap:1.5rem;
+  padding:1.25rem 0; border-bottom:1px solid var(--rule);
+}
+.exp-item--primary{
+  background:color-mix(in srgb, var(--inset) 55%, transparent);
+  padding:1.25rem 1rem;
+  border-left:2px solid var(--accent);
+  border-radius:0 2px 2px 0;
+}
+.exp__meta{
+  font-family:'IBM Plex Mono',monospace; font-size:.76rem; color:var(--ink-3);
+  padding-top:.15rem; line-height:1.45;
+}
+.exp__badge{
+  display:inline-block; margin-top:.35rem;
+  font-family:'IBM Plex Mono',monospace; font-size:.69rem;
+  color:var(--accent); background:var(--wash);
+  padding:.1rem .42rem; border-radius:2px;
+}
+.exp__body h3{
+  font-size:1.04rem; font-weight:600; margin-bottom:.15rem;
+}
+.exp__org{
+  color:var(--ink-2); font-size:.88rem; font-weight:500; margin-bottom:.45rem;
+}
+.exp__desc{
+  color:var(--ink-2); font-size:.9rem; margin:0 0 .45rem; max-width:66ch;
+}
+.exp__bullets{
+  display:grid; gap:.3rem; font-size:.89rem; color:var(--ink-2); max-width:66ch;
+}
+.exp__bullets li{
+  position:relative; padding-left:.85rem;
+}
+.exp__bullets li::before{
+  content:""; position:absolute; left:0; top:.58em;
+  width:4px; height:4px; border-radius:50%; background:var(--rule-2);
+}
+.exp-item--primary .exp__bullets li::before{
+  background:var(--accent);
+}
 
 /* --- About Section -------------------------------------------- */
 .cols{
@@ -734,8 +781,11 @@ input[type=range]::-moz-range-thumb{
   .intro__grid, .cols, .contact__grid, .figs2, .cs-grid{
     grid-template-columns:1fr;
   }
-  .edu-item{
+  .edu-item, .exp-item{
     grid-template-columns:1fr; gap:.35rem;
+  }
+  .exp-item--primary{
+    padding:1rem .75rem;
   }
   .pcard{
     grid-template-columns:1.8rem 1fr;
