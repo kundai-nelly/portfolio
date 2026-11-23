@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 990" width="100%" height="100%">
+    <defs>
+        <filter id="drop-shadow" x="-5%" y="-5%" width="110%" height="115%">
+            <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.06"/>
+        </filter>
+        <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1B365D"/>
+            <stop offset="100%" stop-color="#2C3E50"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Canvas Background -->
+    <rect width="1760" height="990" fill="#F8FAFC"/>
+
+    <!-- Header Banner -->
+    <rect width="1760" height="85" fill="url(#headerGrad)"/>
+    <text x="40" y="38" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">GRAINFLOW ANALYTICS — POWER BI EXECUTIVE SUITE</text>
+    <text x="40" y="64" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#94A3B8">Page 5: Financial Performance &amp; Break-Even | Operating P&amp;L Waterfall, Working Capital Trough &amp; CVP Model</text>
+    <rect x="1540" y="24" width="180" height="36" rx="6" fill="#D99B26"/>
+    <text x="1560" y="47" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">PHASE 7 RECONCILED</text>
+
+    <!-- KPI Row -->
+    
+        <g transform="translate(40, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">GROSS COMMERCIAL REVENUE</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 232.86M</text>
+            <rect x="16" y="74" width="119" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">34,410.87 MT Sold</text>
+        </g>
+        
+        <g transform="translate(324, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">ACCRUAL NET COGS</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 198.43M</text>
+            <rect x="16" y="74" width="154" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">GAAP Inventory Matched</text>
+        </g>
+        
+        <g transform="translate(608, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">ACCRUAL COMMODITY MARGIN</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 34.43M</text>
+            <rect x="16" y="74" width="133" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">14.79% Gross Margin</text>
+        </g>
+        
+        <g transform="translate(892, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">OPERATING CASH CONTRIBUTION</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">-R 22.69M</text>
+            <rect x="16" y="74" width="133" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">Cash Basis (KPI-22)</text>
+        </g>
+        
+        <g transform="translate(1176, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">INVENTORY ASSET BUILD</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">+R 14.30M</text>
+            <rect x="16" y="74" width="182" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">Stock Build (+2,276.57 MT)</text>
+        </g>
+        
+        <g transform="translate(1460, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">PRE-TAX OPERATING RESULT</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">-R 8.39M</text>
+            <rect x="16" y="74" width="126" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">P&amp;L Result (GB-02)</text>
+        </g>
+        
+
+    <!-- Visual Containers Grid -->
+    
+    <!-- Chart 1: P&amp;L Waterfall Bridge -->
+    <g transform="translate(40, 230)">
+        <rect width="820" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Cooperative Operating P&amp;L Bridge: Cash to Accrual (ZAR Millions)</text>
+        <g transform="translate(40, 60)">
+            <!-- Baseline Revenue -->
+            <rect x="20" y="50" width="70" height="180" fill="#1B365D" rx="2"/>
+            <text x="55" y="40" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#1B365D">+232.86</text>
+            <text x="55" y="245" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">Revenue</text>
+
+            <!-- Farmer Payouts -->
+            <rect x="120" y="66" width="70" height="164" fill="#DC2626" rx="2"/>
+            <text x="155" y="56" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">-212.74</text>
+            <text x="155" y="245" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">Procurement</text>
+
+            <!-- Depot Ops -->
+            <rect x="220" y="212" width="70" height="18" fill="#DC2626" rx="2"/>
+            <text x="255" y="202" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">-23.32</text>
+            <text x="255" y="245" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">Depot Ops</text>
+
+            <!-- Freight -->
+            <rect x="320" y="215" width="70" height="15" fill="#DC2626" rx="2"/>
+            <text x="355" y="205" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">-19.50</text>
+            <text x="355" y="245" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">Transport</text>
+
+            <!-- Cash Result -->
+            <rect x="430" y="212" width="75" height="18" fill="#D97706" rx="2"/>
+            <text x="467" y="202" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#D97706">-22.69M</text>
+            <text x="467" y="245" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#D97706">Cash (KPI-22)</text>
+
+            <!-- Stock Build Bridge -->
+            <rect x="540" y="201" width="70" height="11" fill="#16A34A" rx="2"/>
+            <text x="575" y="191" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#16A34A">+14.30M</text>
+            <text x="575" y="245" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#16A34A">Stock Build</text>
+
+            <!-- Pre-Tax Result -->
+            <rect x="650" y="223" width="75" height="7" fill="#4A777A" rx="2"/>
+            <text x="687" y="213" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#4A777A">-8.39M</text>
+            <text x="687" y="245" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#4A777A">Pre-Tax P&amp;L</text>
+        </g>
+    </g>
+
+    <!-- Chart 2: Cumulative Cash Trajectory -->
+    <g transform="translate(880, 230)">
+        <rect width="840" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Monthly Cumulative Cash Trajectory &amp; July Working-Capital Trough</text>
+        <!-- Inverted deficit curve showing deep July trough -->
+        <path d="M 60 80 Q 180 80, 260 120 Q 380 200, 480 260 Q 580 250, 680 180 L 780 140" fill="none" stroke="#DC2626" stroke-width="3"/>
+        <circle cx="480" cy="260" r="6" fill="#DC2626"/>
+        <text x="495" y="265" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">July Trough: -R 123.91M Cumulative Cash Deficit</text>
+        <line x1="60" y1="80" x2="780" y2="80" stroke="#94A3B8" stroke-dasharray="4 4"/>
+        <text x="60" y="70" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">R 0.00 Break-Even Level</text>
+        <text x="60" y="295" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">Jan (+R 8.5M)</text>
+        <text x="460" y="295" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#DC2626">July (Max Drain)</text>
+        <text x="730" y="295" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">Dec (-R 22.69M)</text>
+    </g>
+
+    <!-- Chart 3: CVP Linear Break-Even Chart -->
+    <g transform="translate(40, 590)">
+        <rect width="820" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Cost-Volume-Profit (CVP) Linear Break-Even Analysis (GB-05)</text>
+        <g transform="translate(60, 60)">
+            <!-- Axes -->
+            <line x1="40" y1="220" x2="720" y2="220" stroke="#94A3B8"/>
+            <line x1="40" y1="20" x2="40" y2="220" stroke="#94A3B8"/>
+            <!-- Fixed cost line -->
+            <line x1="40" y1="180" x2="720" y2="180" stroke="#64748B" stroke-dasharray="4 4"/>
+            <text x="45" y="175" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">Fixed Depot Overhead (R 14.58M)</text>
+            <!-- Total cost line -->
+            <line x1="40" y1="180" x2="720" y2="40" stroke="#DC2626" stroke-width="2"/>
+            <!-- Total revenue line -->
+            <line x1="40" y1="220" x2="720" y2="20" stroke="#16A34A" stroke-width="2"/>
+            <!-- Break-even intersection at x=580 -->
+            <circle cx="580" cy="55" r="5" fill="#D97706"/>
+            <line x1="580" y1="55" x2="580" y2="220" stroke="#D97706" stroke-dasharray="3 3"/>
+            <text x="585" y="70" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#D97706">Break-Even Volume: 81,009.08 MT</text>
+            <!-- Actual sales volume at x=280 -->
+            <line x1="280" y1="130" x2="280" y2="220" stroke="#0284C7" stroke-width="2"/>
+            <circle cx="280" cy="130" r="5" fill="#0284C7"/>
+            <text x="210" y="125" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0284C7">Actual: 34,410.87 MT</text>
+            <text x="210" y="145" font-family="Segoe UI, sans-serif" font-size="10" fill="#DC2626">Under-recovery (-46.6k MT)</text>
+        </g>
+    </g>
+
+    <!-- Chart 4: Cooperative GAAP P&amp;L Table -->
+    <g transform="translate(880, 590)">
+        <rect width="840" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Audited Cooperative Income Statement (ZAR)</text>
+        <g transform="translate(24, 60)">
+            <rect x="0" y="0" width="792" height="26" fill="#F1F5F9"/>
+            <text x="10" y="18" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">P&amp;L ACCOUNT LINE ITEM</text>
+            <text x="440" y="18" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">AMOUNT (ZAR)</text>
+            <text x="620" y="18" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">ACCOUNTING BASIS</text>
+
+            <text x="10" y="50" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Commercial Gross Sales Revenue</text>
+            <text x="440" y="50" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#1E293B">R 232,863,245.60</text>
+            <text x="620" y="50" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">34,410.869 MT Sold</text>
+
+            <text x="10" y="80" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">Accrual Net Cost of Goods Sold (Net COGS)</text>
+            <text x="440" y="80" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">-R 198,433,650.65</text>
+            <text x="620" y="80" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">Opening + Payout - Closing</text>
+
+            <text x="10" y="110" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#16A34A">Accrual Gross Commodity Margin</text>
+            <text x="440" y="110" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#16A34A">+R 34,429,594.95</text>
+            <text x="620" y="110" font-family="Segoe UI, sans-serif" font-size="10" fill="#16A34A">14.79% Margin</text>
+
+            <text x="10" y="140" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">Depot Operating Expenses (Fixed &amp; Variable)</text>
+            <text x="440" y="140" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">-R 23,319,186.81</text>
+            <text x="620" y="140" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">8 Depots, 12 Months</text>
+
+            <text x="10" y="170" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">Outbound Freight &amp; Transport Logistics</text>
+            <text x="440" y="170" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">-R 19,497,146.29</text>
+            <text x="620" y="170" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">1,331 Shipments</text>
+
+            <rect x="0" y="195" width="792" height="30" fill="#F1F5F9"/>
+            <text x="10" y="215" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">INVENTORY-ADJUSTED PRE-TAX OPERATING RESULT</text>
+            <text x="440" y="215" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">-R 8,386,738.15</text>
+            <text x="620" y="215" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#DC2626">GB-02 Operating Baseline</text>
+        </g>
+    </g>
+    
+
+    <!-- Footer Bar -->
+    <rect y="955" width="1760" height="35" fill="#0F172A"/>
+    <text x="40" y="977" font-family="Segoe UI, sans-serif" font-size="11" fill="#94A3B8">GrainFlow Analytics © 2026 | Portfolio Demonstration of Production Power BI &amp; Star-Schema DAX Architecture | Data Source: PostgreSQL 16.4</text>
+    <text x="1580" y="977" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#38BDF8">0.00 Variance Guaranteed</text>
+</svg>

@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 990" width="100%" height="100%">
+    <defs>
+        <filter id="drop-shadow" x="-5%" y="-5%" width="110%" height="115%">
+            <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.06"/>
+        </filter>
+        <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1B365D"/>
+            <stop offset="100%" stop-color="#2C3E50"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Canvas Background -->
+    <rect width="1760" height="990" fill="#F8FAFC"/>
+
+    <!-- Header Banner -->
+    <rect width="1760" height="85" fill="url(#headerGrad)"/>
+    <text x="40" y="38" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">GRAINFLOW ANALYTICS — POWER BI EXECUTIVE SUITE</text>
+    <text x="40" y="64" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#94A3B8">Page 4: Transport &amp; Logistics Efficiency | Outbound Logistics, Modal Shift Economics &amp; Transit Loss Rates</text>
+    <rect x="1540" y="24" width="180" height="36" rx="6" fill="#D99B26"/>
+    <text x="1560" y="47" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">PHASE 7 RECONCILED</text>
+
+    <!-- KPI Row -->
+    
+        <g transform="translate(40, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">TOTAL FREIGHT COST</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 19.50M</text>
+            <rect x="16" y="74" width="105" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">1,331 Shipments</text>
+        </g>
+        
+        <g transform="translate(324, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">FUEL EXPENDITURE</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 8.82M</text>
+            <rect x="16" y="74" width="119" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">45.21% Fuel Share</text>
+        </g>
+        
+        <g transform="translate(608, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">COST PER TONNE</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 564.88/MT</text>
+            <rect x="16" y="74" width="161" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">34,515.50 MT Dispatched</text>
+        </g>
+        
+        <g transform="translate(892, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">COST PER TONNE-KM</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 1.5363/MT-km</text>
+            <rect x="16" y="74" width="105" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">12.69M Tonne-Km</text>
+        </g>
+        
+        <g transform="translate(1176, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">TOTAL SHRINKAGE</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">320.33 MT</text>
+            <rect x="16" y="74" width="252" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">215.70 MT Silo + 104.63 MT Rail/Road</text>
+        </g>
+        
+        <g transform="translate(1460, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">COMBINED SHRINKAGE VALUE</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 2.22M</text>
+            <rect x="16" y="74" width="217" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">R 2,222,447.99 Commercial Proxy</text>
+        </g>
+        
+
+    <!-- Visual Containers Grid -->
+    
+    <!-- Chart 1: Modal Split Comparison -->
+    <g transform="translate(40, 230)">
+        <rect width="820" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Transport Mode Efficiency — Tonnage vs Fuel vs Tonne-Km (%)</text>
+        <g transform="translate(160, 60)">
+            <text x="-140" y="24" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Heavy Road (TRN-HBL)</text>
+            <rect x="0" y="10" width="270" height="20" fill="#1B365D" rx="2"/>
+            <rect x="0" y="32" width="271" height="20" fill="#DC2626" rx="2"/>
+            <rect x="0" y="54" width="235" height="20" fill="#4A777A" rx="2"/>
+
+            <text x="-140" y="104" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Bulk Rail (TRN-RAIL)</text>
+            <rect x="0" y="90" width="161" height="20" fill="#1B365D" rx="2"/>
+            <rect x="0" y="112" width="111" height="20" fill="#DC2626" rx="2"/>
+            <rect x="0" y="134" width="224" height="20" fill="#4A777A" rx="2"/>
+
+            <text x="-140" y="184" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#1E293B">Medium Road (TRN-MRG)</text>
+            <rect x="0" y="170" width="55" height="20" fill="#1B365D" rx="2"/>
+            <rect x="0" y="192" width="95" height="20" fill="#DC2626" rx="2"/>
+            <rect x="0" y="214" width="30" height="20" fill="#4A777A" rx="2"/>
+        </g>
+        <g transform="translate(240, 310)">
+            <rect x="0" y="0" width="12" height="12" fill="#1B365D"/>
+            <text x="18" y="10" font-family="Segoe UI, sans-serif" font-size="11" fill="#475569">Tonnage Share</text>
+            <rect x="150" y="0" width="12" height="12" fill="#DC2626"/>
+            <text x="168" y="10" font-family="Segoe UI, sans-serif" font-size="11" fill="#475569">Fuel Cost Share</text>
+            <rect x="300" y="0" width="12" height="12" fill="#4A777A"/>
+            <text x="318" y="10" font-family="Segoe UI, sans-serif" font-size="11" fill="#475569">Tonne-Km Share</text>
+        </g>
+    </g>
+
+    <!-- Chart 2: Unit Freight Cost by Mode -->
+    <g transform="translate(880, 230)">
+        <rect width="840" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Unit Freight Cost &amp; Fuel Composition by Mode (ZAR / MT-km)</text>
+        <g transform="translate(80, 70)">
+            <!-- HBL -->
+            <rect x="40" y="120" width="100" height="50" fill="#1B365D" rx="2"/>
+            <rect x="40" y="70" width="100" height="50" fill="#D99B26" rx="2"/>
+            <text x="90" y="55" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#1E293B">R 1.5829</text>
+            <text x="90" y="200" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Heavy Road</text>
+            <text x="90" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">TRN-HBL</text>
+
+            <!-- RAIL -->
+            <rect x="220" y="135" width="100" height="35" fill="#1B365D" rx="2"/>
+            <rect x="220" y="100" width="100" height="35" fill="#D99B26" rx="2"/>
+            <text x="270" y="85" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#16A34A">R 1.0829 (-31.6%)</text>
+            <text x="270" y="200" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Bulk Rail</text>
+            <text x="270" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#16A34A">Most Cost Effective</text>
+
+            <!-- MRG -->
+            <rect x="400" y="100" width="100" height="70" fill="#1B365D" rx="2"/>
+            <rect x="400" y="30" width="100" height="70" fill="#D99B26" rx="2"/>
+            <text x="450" y="20" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#1E293B">R 2.2500</text>
+            <text x="450" y="200" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Medium Rigid</text>
+            <text x="450" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">TRN-MRG</text>
+
+            <!-- LDV -->
+            <rect x="580" y="80" width="100" height="90" fill="#1B365D" rx="2"/>
+            <rect x="580" y="0" width="100" height="80" fill="#D99B26" rx="2"/>
+            <text x="630" y="-10" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#DC2626">R 3.4500</text>
+            <text x="630" y="200" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Light Delivery</text>
+            <text x="630" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#DC2626">Highest Cost/tkm</text>
+        </g>
+    </g>
+
+    <!-- Chart 3: Transit Loss by Mode -->
+    <g transform="translate(40, 590)">
+        <rect width="820" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">In-Transit Loss Rate &amp; Foregone Revenue (104.63 MT / R 703.57k)</text>
+        <g transform="translate(100, 70)">
+            <text x="0" y="30" font-family="Segoe UI, sans-serif" font-size="12" fill="#1E293B">Light Delivery Vehicle (LDV)</text>
+            <rect x="220" y="16" width="360" height="20" fill="#DC2626" rx="2"/>
+            <text x="590" y="30" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">1.15% (Highest Loss)</text>
+
+            <text x="0" y="70" font-family="Segoe UI, sans-serif" font-size="12" fill="#1E293B">Medium Rigid Truck (MRG)</text>
+            <rect x="220" y="56" width="250" height="20" fill="#D97706" rx="2"/>
+            <text x="480" y="70" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#D97706">0.80%</text>
+
+            <text x="0" y="110" font-family="Segoe UI, sans-serif" font-size="12" fill="#1E293B">Bulk Freight Rail (RAIL)</text>
+            <rect x="220" y="96" width="140" height="20" fill="#0284C7" rx="2"/>
+            <text x="370" y="110" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0284C7">0.45%</text>
+
+            <text x="0" y="150" font-family="Segoe UI, sans-serif" font-size="12" fill="#1E293B">Heavy Bulk Long-Haul (HBL)</text>
+            <rect x="220" y="136" width="110" height="20" fill="#16A34A" rx="2"/>
+            <text x="340" y="150" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#16A34A">0.35% (Lowest Loss)</text>
+        </g>
+    </g>
+
+    <!-- Chart 4: Buyer Logistics Summary -->
+    <g transform="translate(880, 590)">
+        <rect width="840" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Commercial Buyer Logistics Delivery Table</text>
+        <g transform="translate(24, 60)">
+            <rect x="0" y="0" width="792" height="30" fill="#F1F5F9"/>
+            <text x="10" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">BUYER NAME</text>
+            <text x="180" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">CONSIGNMENTS</text>
+            <text x="300" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">DISPATCHED MT</text>
+            <text x="440" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">RECEIVED MT</text>
+            <text x="590" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">TRANSPORT COST</text>
+            <text x="710" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">LOSS MT</text>
+
+            <text x="10" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">Premier Milling Ltd</text>
+            <text x="180" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#475569">185</text>
+            <text x="300" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">4,810.0 MT</text>
+            <text x="440" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">4,795.5 MT</text>
+            <text x="590" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">R 2,715,400</text>
+            <text x="710" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#DC2626">14.5 MT</text>
+
+            <rect x="0" y="225" width="792" height="30" fill="#F8FAFC"/>
+            <text x="10" y="245" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0F172A">TOTAL NETWORK (12 BUYERS)</text>
+            <text x="180" y="245" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0F172A">1,331</text>
+            <text x="300" y="245" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0F172A">34,515.50 MT</text>
+            <text x="440" y="245" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0F172A">34,410.87 MT</text>
+            <text x="590" y="245" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0F172A">R 19,497,146</text>
+            <text x="710" y="245" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">104.63 MT</text>
+        </g>
+    </g>
+    
+
+    <!-- Footer Bar -->
+    <rect y="955" width="1760" height="35" fill="#0F172A"/>
+    <text x="40" y="977" font-family="Segoe UI, sans-serif" font-size="11" fill="#94A3B8">GrainFlow Analytics © 2026 | Portfolio Demonstration of Production Power BI &amp; Star-Schema DAX Architecture | Data Source: PostgreSQL 16.4</text>
+    <text x="1580" y="977" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#38BDF8">0.00 Variance Guaranteed</text>
+</svg>

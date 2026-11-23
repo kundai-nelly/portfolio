@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrainFlow Analytics — Microsoft Power BI Dashboard Suite</title>
+    <style>
+        :root {
+            --primary: #1B365D;
+            --primary-dark: #0F172A;
+            --slate: #4A777A;
+            --amber: #D99B26;
+            --ruby: #A63A50;
+            --bg-canvas: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --border: #E2E8F0;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-canvas);
+            color: var(--text-dark);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Power BI Header Bar */
+        .pbi-header {
+            background: linear-gradient(90deg, #1B365D 0%, #2C3E50 100%);
+            color: #FFFFFF;
+            padding: 14px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .pbi-header h1 {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .pbi-header .tag {
+            background: #D99B26;
+            color: #FFFFFF;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        /* Navigation Bar (Simulates Power BI Page Tabs) */
+        .pbi-nav {
+            background: #FFFFFF;
+            border-bottom: 2px solid var(--border);
+            display: flex;
+            overflow-x: auto;
+            padding: 0 20px;
+        }
+
+        .tab-btn {
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            padding: 14px 20px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: var(--primary);
+            background: #F1F5F9;
+        }
+
+        .tab-btn.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+            background: #F8FAFC;
+        }
+
+        /* Main Workspace Container */
+        .pbi-container {
+            flex: 1;
+            padding: 24px;
+            max-width: 1760px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .page-panel {
+            display: none;
+        }
+
+        .page-panel.active {
+            display: block;
+            animation: fadeIn 0.25s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* SVG Blueprint Viewer Frame */
+        .svg?v=2-frame {
+            background: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+            border: 1px solid var(--border);
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .svg?v=2-frame svg {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Details & Insights Card Below Visual */
+        .insight-card {
+            background: #FFFFFF;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin-top: 20px;
+            padding: 20px 24px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+        }
+
+        .insight-card h3 {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .insight-card p {
+            font-size: 13px;
+            color: #334155;
+            line-height: 1.6;
+        }
+
+        .badge-list {
+            display: flex;
+            gap: 12px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        .badge-pill {
+            background: #F1F5F9;
+            color: var(--primary);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            border: 1px solid #E2E8F0;
+        }
+
+        /* Footer */
+        .pbi-footer {
+            background: #0F172A;
+            color: #94A3B8;
+            padding: 12px 28px;
+            font-size: 11px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="pbi-header">
+        <div>
+            <h1>GrainFlow Analytics — Microsoft Power BI Dashboard Suite</h1>
+            <span style="font-size: 12px; opacity: 0.85;">Authoritative Import Mode Star Schema (PostgreSQL 16.4 | GFA-DOC-709)</span>
+        </div>
+        <div>
+            <span class="tag">6 PAGES VERIFIED (0.00 VARIANCE)</span>
+        </div>
+    </div>
+
+    <!-- Power BI Page Navigation Tabs -->
+    <div class="pbi-nav">
+        <button class="tab-btn active" onclick="switchPage(1)">1. Executive Overview</button>
+        <button class="tab-btn" onclick="switchPage(2)">2. Depot &amp; Inventory</button>
+        <button class="tab-btn" onclick="switchPage(3)">3. Grain Quality</button>
+        <button class="tab-btn" onclick="switchPage(4)">4. Transport &amp; Logistics</button>
+        <button class="tab-btn" onclick="switchPage(5)">5. Financial Performance</button>
+        <button class="tab-btn" onclick="switchPage(6)">6. Fuel Sensitivity</button>
+    </div>
+
+    <div class="pbi-container">
+        <!-- Page 1: Executive Overview -->
+        <div id="page-1" class="page-panel active">
+            <div class="svg-frame">
+                <img src="page1_executive_overview.svg?v=2" style="width:100%; height:auto;" alt="Page 1: Executive Overview"/>
+            </div>
+            <div class="insight-card">
+                <h3>Executive Management Insights — Page 1</h3>
+                <p>Translates total intake (39,027 MT), commercial sales (34,411 MT / R 232.86M), and farmer disbursements (R 212.74M) into high-level business intelligence. Demonstrates the cooperative's dual operating realities: a Period Operational Cash Deficit of -R 22.69M caused by procurement timing, bridged by +R 14.30M in capitalised inventory to an Inventory-Adjusted Pre-Tax Result of -R 8.39M.</p>
+                <div class="badge-list">
+                    <span class="badge-pill">Commercial Sales: R 232,863,245.60</span>
+                    <span class="badge-pill">Farmer Disbursements: R 212,735,855.88</span>
+                    <span class="badge-pill">Operating Cash Contribution: -R 22,688,943.38</span>
+                    <span class="badge-pill">Inventory-Adjusted Pre-Tax Result: -R 8,386,738.15</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 2: Depot & Inventory -->
+        <div id="page-2" class="page-panel">
+            <div class="svg-frame">
+                <img src="page2_depot_and_inventory.svg?v=2" style="width:100%; height:auto;" alt="Page 2: Depot & Inventory"/>
+            </div>
+            <div class="insight-card">
+                <h3>Depot &amp; Storage Operational Insights — Page 2</h3>
+                <p>Answers Management Question 1: Evaluates the 36,000 MT network across 8 regional depots. Highlights peak single-depot congestion at DEP-03 Lichtenburg (93.44%), DEP-01 Bethlehem (92.11%), and DEP-05 Ermelo (91.34%), with 53 critical depot-days (&gt;=90%) and 149 warning depot-days (&gt;=80%). Synchronous network peak stock reached 26,498.38 MT (73.61% capacity) in June. Physical in-depot storage loss totaled 215.70 MT (0.487% of handled grain).</p>
+                <div class="badge-list">
+                    <span class="badge-pill">Total Silo Capacity: 36,000 MT (8 Depots)</span>
+                    <span class="badge-pill">Highest Peak: DEP-03 Lichtenburg (93.44%)</span>
+                    <span class="badge-pill">Critical Capacity Breaches: 53 Depot-Days</span>
+                    <span class="badge-pill">Day 365 Closing: 9,476.57 MT (26.32%)</span>
+                    <span class="badge-pill">Depot Storage Loss: 215.70 MT (R 1.52M Proxy)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 3: Grain Quality -->
+        <div id="page-3" class="page-panel">
+            <div class="svg-frame">
+                <img src="page3_grain_quality.svg?v=2" style="width:100%; height:auto;" alt="Page 3: Grain Quality"/>
+            </div>
+            <div class="insight-card">
+                <h3>Grain Quality &amp; Agronomic Downgrade Insights — Page 3</h3>
+                <p>Answers Management Questions 2 &amp; 3: Identifies DST-13 (Thabo Mofutsanyane) as the highest rejection district at 11.20% volume rejection. Rejection is strongly correlated with harvest moisture breaches exceeding the 14.0% safe storage threshold (triggering 57.3% of non-Grade-1 limiting downgrades). Total farmer quality downgrade loss is R 8,400,432.67 (R 4.76M driven by moisture). Multi-breach analysis reveals 351 delivery lots experienced overlapping defects (explaining the 110.12% sum of individual breach incidence rates).</p>
+                <div class="badge-list">
+                    <span class="badge-pill">Volume Rejection Rate: 5.18% (2,019.73 MT)</span>
+                    <span class="badge-pill">Any-Rejection Rate: 8.57% (257 Lots)</span>
+                    <span class="badge-pill">Farmer Downgrade Loss: R 8,400,432.67</span>
+                    <span class="badge-pill">Overlapping Breaches: 351 Lots (110.12% Gross Incidence)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 4: Transport & Logistics -->
+        <div id="page-4" class="page-panel">
+            <div class="svg-frame">
+                <img src="page4_transport_and_logistics.svg?v=2" style="width:100%; height:auto;" alt="Page 4: Transport & Logistics"/>
+            </div>
+            <div class="insight-card">
+                <h3>Logistics &amp; Transport Efficiency Insights — Page 4</h3>
+                <p>Answers Management Questions 4 &amp; 5: Proves Bulk Rail (TRN-RAIL) is the most cost-effective mode at R 1.0829 / MT-km (31.6% cheaper than Heavy Road TRN-HBL at R 1.5829 / MT-km). Heavy Road carries 54.1% of tonnage and absorbs 54.2% of fuel costs. Total physical supply-chain shrinkage is 320.33 MT (215.70 MT storage + 104.63 MT transit), with an approved combined economic loss proxy of R 2,222,447.99.</p>
+                <div class="badge-list">
+                    <span class="badge-pill">Outbound Freight: R 19,497,146.29</span>
+                    <span class="badge-pill">Unit Task Cost: R 1.5363 / MT-km</span>
+                    <span class="badge-pill">Total Shrinkage: 320.33 MT</span>
+                    <span class="badge-pill">Combined Shrinkage Proxy: R 2,222,447.99 (Phase 6 Benchmark)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 5: Financial Performance -->
+        <div id="page-5" class="page-panel">
+            <div class="svg-frame">
+                <img src="page5_financial_performance.svg?v=2" style="width:100%; height:auto;" alt="Page 5: Financial Performance"/>
+            </div>
+            <div class="insight-card">
+                <h3>Financial Performance &amp; CVP Break-Even Insights — Page 5</h3>
+                <p>Reconciles the cooperative's operating performance in accordance with Gate B decisions (GB-01 through GB-05). Explains the linear break-even requirement (81,009.08 MT) vs actual sales volume (34,410.87 MT), revealing that fixed depot overhead (R 14.58M) requires greater operational scale. Details working capital timing: tracking the peak seasonal operational cash deficit of -R 123.91M at end of July.</p>
+                <div class="badge-list">
+                    <span class="badge-pill">Accrual Gross Margin: R 34,429,594.95 (14.79%)</span>
+                    <span class="badge-pill">Fixed Depot Overhead: R 14,580,000.00</span>
+                    <span class="badge-pill">Linear Break-Even Sold Volume: 81,009.08 MT</span>
+                    <span class="badge-pill">Max Cumulative Cash Drain: -R 123,907,935.64 (July)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page 6: Fuel Sensitivity -->
+        <div id="page-6" class="page-panel">
+            <div class="svg-frame">
+                <img src="page6_fuel_sensitivity.svg?v=2" style="width:100%; height:auto;" alt="Page 6: Fuel Sensitivity"/>
+            </div>
+            <div class="insight-card">
+                <h3>Fuel Sensitivity &amp; Management Mitigation Insights — Page 6</h3>
+                <p>Answers Management Question 6: A +15% fuel price shock adds +R 1,322,271.99 to freight expenditure under Canonical Aggregate Method A (R 10.14M shocked fuel), widening pre-tax loss to -R 9.71M. Compares mitigations: Option M1 recovers 100% via a +R 38.43/MT buyer surcharge protecting farmers; Option M3 saves R 445,518.96 (33.7% of shock) via 20% long-haul road-to-rail modal shift.</p>
+                <div class="badge-list">
+                    <span class="badge-pill">+15% Shock Increase: +R 1,322,271.99 (Method A)</span>
+                    <span class="badge-pill">Shocked Freight Total: R 20,819,418.28</span>
+                    <span class="badge-pill">Option M1 Surcharge: +R 38.43 / received MT</span>
+                    <span class="badge-pill">Option M3 Rail Saving: R 445,518.96 (20% Modal Shift)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pbi-footer">
+        <div>GrainFlow Analytics Portfolio Project © 2026 | Full 6-Page Architecture Verified</div>
+        <div>All Figures 100% Reconciled to PostgreSQL 16.4 &amp; Phase 6 Excel Model</div>
+    </div>
+
+    <script>
+        function switchPage(pageNum) {
+            document.querySelectorAll('.page-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('page-' + pageNum).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

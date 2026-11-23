@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1760 990" width="100%" height="100%">
+    <defs>
+        <filter id="drop-shadow" x="-5%" y="-5%" width="110%" height="115%">
+            <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.06"/>
+        </filter>
+        <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1B365D"/>
+            <stop offset="100%" stop-color="#2C3E50"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Canvas Background -->
+    <rect width="1760" height="990" fill="#F8FAFC"/>
+
+    <!-- Header Banner -->
+    <rect width="1760" height="85" fill="url(#headerGrad)"/>
+    <text x="40" y="38" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">GRAINFLOW ANALYTICS — POWER BI EXECUTIVE SUITE</text>
+    <text x="40" y="64" font-family="Segoe UI, sans-serif" font-size="14" font-weight="400" fill="#94A3B8">Page 6: Fuel Sensitivity &amp; Management Scenarios | +15% Diesel Shock Simulation, Sensitivity Ladder &amp; Mitigation Levers</text>
+    <rect x="1540" y="24" width="180" height="36" rx="6" fill="#D99B26"/>
+    <text x="1560" y="47" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">PHASE 7 RECONCILED</text>
+
+    <!-- KPI Row -->
+    
+        <g transform="translate(40, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">BASELINE FUEL COST</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 8.82M</text>
+            <rect x="16" y="74" width="119" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">45.21% of Freight</text>
+        </g>
+        
+        <g transform="translate(324, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">+15% SHOCKED FUEL</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 10.14M</text>
+            <rect x="16" y="74" width="126" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">Canonical Method A</text>
+        </g>
+        
+        <g transform="translate(608, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">NET SHOCK INCREASE</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">+R 1.32M</text>
+            <rect x="16" y="74" width="154" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">Cooperative Absorption</text>
+        </g>
+        
+        <g transform="translate(892, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">SHOCKED CASH CONTRIBUTION</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">-R 24.01M</text>
+            <rect x="16" y="74" width="154" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">Cash Impact (-R 1.32M)</text>
+        </g>
+        
+        <g transform="translate(1176, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">SHOCKED PRE-TAX RESULT</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">-R 9.71M</text>
+            <rect x="16" y="74" width="147" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">P&amp;L Impact (-R 1.32M)</text>
+        </g>
+        
+        <g transform="translate(1460, 110)">
+            <rect width="260" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" filter="url(#drop-shadow)"/>
+            <text x="16" y="28" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#64748B">M3 MODAL SHIFT SAVING</text>
+            <text x="16" y="62" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#1E293B">R 445.52k</text>
+            <rect x="16" y="74" width="133" height="18" rx="4" fill="#F1F5F9"/>
+            <text x="20" y="87" font-family="Segoe UI, sans-serif" font-size="10" font-weight="600" fill="#0EA5E9">33.69% Shock Offset</text>
+        </g>
+        
+
+    <!-- Visual Containers Grid -->
+    
+    <!-- Chart 1: Multi-Step Sensitivity Ladder -->
+    <g transform="translate(40, 230)">
+        <rect width="820" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Multi-Step Fuel Sensitivity Ladder (-10% to +30% Diesel Shock)</text>
+        <g transform="translate(60, 60)">
+            <!-- 9 bars for -10% to +30% -->
+            <rect x="20" y="160" width="45" height="40" fill="#16A34A" rx="2"/>
+            <text x="42" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">-10%</text>
+
+            <rect x="80" y="180" width="45" height="20" fill="#16A34A" rx="2"/>
+            <text x="102" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">-5%</text>
+
+            <rect x="140" y="195" width="45" height="5" fill="#64748B" rx="2"/>
+            <text x="162" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#64748B">Base</text>
+
+            <rect x="200" y="180" width="45" height="20" fill="#D97706" rx="2"/>
+            <text x="222" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">+5%</text>
+
+            <rect x="260" y="160" width="45" height="40" fill="#D97706" rx="2"/>
+            <text x="282" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">+10%</text>
+
+            <!-- +15% Mandatory Shock -->
+            <rect x="320" y="130" width="45" height="70" fill="#DC2626" rx="2"/>
+            <text x="342" y="120" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">+R 1.32M</text>
+            <text x="342" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#DC2626">+15%*</text>
+
+            <rect x="380" y="110" width="45" height="90" fill="#B91C1C" rx="2"/>
+            <text x="402" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">+20%</text>
+
+            <rect x="440" y="90" width="45" height="110" fill="#991B1B" rx="2"/>
+            <text x="462" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">+25%</text>
+
+            <rect x="500" y="70" width="45" height="130" fill="#7F1D1D" rx="2"/>
+            <text x="522" y="60" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#7F1D1D">+R 2.64M</text>
+            <text x="522" y="215" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="10" fill="#64748B">+30%</text>
+        </g>
+    </g>
+
+    <!-- Chart 2: Management Levers Comparison -->
+    <g transform="translate(880, 230)">
+        <rect width="840" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Management Policy Mitigations Comparison (GB-04)</text>
+        <g transform="translate(60, 70)">
+            <!-- M1 -->
+            <text x="0" y="30" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#16A34A">Option M1: Buyer Fuel Surcharge</text>
+            <rect x="0" y="45" width="460" height="24" fill="#16A34A" rx="3"/>
+            <text x="475" y="62" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#16A34A">R 1,322,271.99 (100% Recovery)</text>
+            <text x="0" y="85" font-family="Segoe UI, sans-serif" font-size="11" fill="#64748B">+R 38.43/received MT | Recommended commercial policy | Farmer payouts 100% protected</text>
+
+            <!-- M2 -->
+            <text x="0" y="125" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#DC2626">Option M2: Farmer Quality Deduction [COUNTER-POLICY]</text>
+            <rect x="0" y="140" width="460" height="24" fill="#DC2626" rx="3"/>
+            <text x="475" y="157" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#DC2626">R 1,322,271.99 (-0.62% Payout Cut)</text>
+            <text x="0" y="180" font-family="Segoe UI, sans-serif" font-size="11" fill="#DC2626">ILLUSTRATIVE COUNTER-POLICY ONLY (GB-04) | -R 35.73/accepted MT | Unviable smallholder burden</text>
+
+            <!-- M3 -->
+            <text x="0" y="220" font-family="Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#0284C7">Option M3: Long-Haul Road-to-Rail Modal Shift</text>
+            <rect x="0" y="235" width="155" height="24" fill="#0284C7" rx="3"/>
+            <text x="170" y="252" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#0284C7">R 445,518.96 (33.7% Offset)</text>
+            <text x="0" y="275" font-family="Segoe UI, sans-serif" font-size="11" fill="#64748B">20.0% eligible long-haul TRN-HBL (&gt;350 km) shifted to TRN-RAIL | Net operational freight saving</text>
+        </g>
+    </g>
+
+    <!-- Chart 3: Fuel Shock Absorption by Mode -->
+    <g transform="translate(40, 590)">
+        <rect width="820" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Fuel Shock Absorption by Transport Mode (+R 1,322,271.99)</text>
+        <circle cx="180" cy="180" r="90" fill="none" stroke="#E2E8F0" stroke-width="32"/>
+        <circle cx="180" cy="180" r="90" fill="none" stroke="#DC2626" stroke-width="32" stroke-dasharray="371 194" stroke-dashoffset="0"/>
+        <circle cx="180" cy="180" r="90" fill="none" stroke="#0284C7" stroke-width="32" stroke-dasharray="125 440" stroke-dashoffset="-371"/>
+        <circle cx="180" cy="180" r="90" fill="none" stroke="#D99B26" stroke-width="32" stroke-dasharray="60 505" stroke-dashoffset="-496"/>
+        <circle cx="180" cy="180" r="90" fill="none" stroke="#64748B" stroke-width="32" stroke-dasharray="9 556" stroke-dashoffset="-556"/>
+        <text x="180" y="175" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#1E293B">+R 1.32M</text>
+        <text x="180" y="195" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" fill="#64748B">Fuel Shock</text>
+        <g transform="translate(340, 80)">
+            <rect x="0" y="10" width="14" height="14" fill="#DC2626" rx="2"/>
+            <text x="24" y="22" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Heavy Bulk Road: +R 868,946.46 (65.72%)</text>
+
+            <rect x="0" y="50" width="14" height="14" fill="#0284C7" rx="2"/>
+            <text x="24" y="62" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Bulk Freight Rail: +R 294,008.20 (22.24%)</text>
+
+            <rect x="0" y="90" width="14" height="14" fill="#D99B26" rx="2"/>
+            <text x="24" y="102" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Medium Rigid: +R 140,157.94 (10.60%)</text>
+
+            <rect x="0" y="130" width="14" height="14" fill="#64748B" rx="2"/>
+            <text x="24" y="142" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Light Delivery: +R 19,159.39 (1.45%)</text>
+        </g>
+    </g>
+
+    <!-- Chart 4: Fuel Sensitivity Management Matrix -->
+    <g transform="translate(880, 590)">
+        <rect width="840" height="340" rx="8" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#drop-shadow)"/>
+        <text x="24" y="36" font-family="Segoe UI, sans-serif" font-size="15" font-weight="700" fill="#1E293B">Executive Decision Matrix: Unmitigated Shock vs Mitigation Levers</text>
+        <g transform="translate(24, 60)">
+            <rect x="0" y="0" width="792" height="30" fill="#F1F5F9"/>
+            <text x="10" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">SCENARIO</text>
+            <text x="180" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">POLICY TYPE</text>
+            <text x="320" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">UNIT PARAMETER</text>
+            <text x="480" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">GROSS OFFSET</text>
+            <text x="640" y="20" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#334155">PRE-TAX RESULT</text>
+
+            <text x="10" y="60" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#DC2626">+15% Unmitigated</text>
+            <text x="180" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#475569">Absorbed Shock</text>
+            <text x="320" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">0.00</text>
+            <text x="480" y="60" font-family="Segoe UI, sans-serif" font-size="11" fill="#DC2626">R 0.00</text>
+            <text x="640" y="60" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#DC2626">-R 9,709,010.14</text>
+
+            <text x="10" y="105" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#16A34A">Option M1 Surcharge</text>
+            <text x="180" y="105" font-family="Segoe UI, sans-serif" font-size="11" fill="#475569">Commercial Pass-Through</text>
+            <text x="320" y="105" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">+R 38.43/MT</text>
+            <text x="480" y="105" font-family="Segoe UI, sans-serif" font-size="11" fill="#16A34A">+R 1,322,271.99</text>
+            <text x="640" y="105" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#16A34A">-R 8,386,738.15</text>
+
+            <text x="10" y="150" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#DC2626">Option M2 Deduction</text>
+            <text x="180" y="150" font-family="Segoe UI, sans-serif" font-size="11" fill="#DC2626">Counter-Policy (Unviable)</text>
+            <text x="320" y="150" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">-R 35.73/MT</text>
+            <text x="480" y="150" font-family="Segoe UI, sans-serif" font-size="11" fill="#16A34A">+R 1,322,271.99</text>
+            <text x="640" y="150" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#16A34A">-R 8,386,738.15</text>
+
+            <text x="10" y="195" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#0284C7">Option M3 Modal Shift</text>
+            <text x="180" y="195" font-family="Segoe UI, sans-serif" font-size="11" fill="#475569">Operational Re-routing</text>
+            <text x="320" y="195" font-family="Segoe UI, sans-serif" font-size="11" fill="#1E293B">20.0% Shift Pct</text>
+            <text x="480" y="195" font-family="Segoe UI, sans-serif" font-size="11" fill="#0284C7">+R 445,518.96</text>
+            <text x="640" y="195" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#0284C7">-R 9,263,491.18</text>
+        </g>
+    </g>
+    
+
+    <!-- Footer Bar -->
+    <rect y="955" width="1760" height="35" fill="#0F172A"/>
+    <text x="40" y="977" font-family="Segoe UI, sans-serif" font-size="11" fill="#94A3B8">GrainFlow Analytics © 2026 | Portfolio Demonstration of Production Power BI &amp; Star-Schema DAX Architecture | Data Source: PostgreSQL 16.4</text>
+    <text x="1580" y="977" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#38BDF8">0.00 Variance Guaranteed</text>
+</svg>
